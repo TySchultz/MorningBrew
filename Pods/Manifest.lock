@@ -1,0 +1,164 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AlamofireImage (3.5.0):
+    - Alamofire (~> 4.8)
+  - AloeStackView (1.0.1)
+  - CodableFirebase (0.2.1)
+  - ContextMenu (0.4.0)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - Firebase/Core (5.14.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.4.0)
+  - Firebase/CoreOnly (5.14.0):
+    - FirebaseCore (= 5.1.9)
+  - Firebase/Database (5.14.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.4)
+  - FirebaseAnalytics (5.4.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleAppMeasurement (= 5.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.9):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.0.4):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.3.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - GoogleAppMeasurement (5.4.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.6):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.6)
+  - GoogleUtilities/Logger (5.3.6):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.6):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.6)"
+  - GoogleUtilities/Reachability (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.6):
+    - GoogleUtilities/Logger
+  - HTMLString (4.0.2)
+  - leveldb-library (1.20)
+  - MarkdownView (1.5.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - SnapKit (4.2.0)
+  - StyledTextKit (0.2.0)
+  - SwiftDate (5.0.13)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - AloeStackView
+  - CodableFirebase
+  - ContextMenu
+  - Crashlytics
+  - Firebase/Core
+  - Firebase/Database
+  - HTMLString
+  - MarkdownView
+  - NVActivityIndicatorView
+  - SnapKit (from `https://github.com/SnapKit/SnapKit.git`, branch `develop`)
+  - StyledTextKit (from `https://github.com/GitHawkApp/StyledTextKit.git`, branch `master`)
+  - SwiftDate (~> 5.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AloeStackView
+    - CodableFirebase
+    - ContextMenu
+    - Crashlytics
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - HTMLString
+    - leveldb-library
+    - MarkdownView
+    - nanopb
+    - NVActivityIndicatorView
+    - SwiftDate
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SnapKit:
+    :branch: develop
+    :git: https://github.com/SnapKit/SnapKit.git
+  StyledTextKit:
+    :branch: master
+    :git: https://github.com/GitHawkApp/StyledTextKit.git
+
+CHECKOUT OPTIONS:
+  SnapKit:
+    :commit: 2f5a5da2458a4ae0fcd7d4a27e98a54d7f235af1
+    :git: https://github.com/SnapKit/SnapKit.git
+  StyledTextKit:
+    :commit: fe3232c980c374d59e520b086b04869e3c920f86
+    :git: https://github.com/GitHawkApp/StyledTextKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
+  AloeStackView: d22c006da4510db5e220968234174654b5ed6ea5
+  CodableFirebase: 0bf201991eeec35eb9fcd987d271ea463cf34a80
+  ContextMenu: f835e09a93f1c28c631b76ee94396d9570397fd1
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  Firebase: 963d5685fae888a56d6d4d9cfce6b9c976958798
+  FirebaseAnalytics: c06f9d70577d79074214700a71fd5d39de5550fb
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: 8f49b70f57ab5cbb032ef41d64992ded21606459
+  FirebaseDatabase: 0621689f77528d62b47e1c06ca737c4c19275d1a
+  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
+  GoogleAppMeasurement: 98b71f5e04142793729a5ef23e5b96651ff4b70f
+  GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
+  HTMLString: d346ba551d1b7e687190c948ec0c2ddaf4057544
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  MarkdownView: 5bbee438c823db1cd189002d44c84fa909b3a896
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  StyledTextKit: dbfb29a59922c6f18897a0266acd139b7c9e712b
+  SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 2876eb532a16c83d4f87ae80e3496f898fea11c2
+
+COCOAPODS: 1.5.3

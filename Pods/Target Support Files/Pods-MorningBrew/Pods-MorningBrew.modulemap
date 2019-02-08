@@ -1,0 +1,6 @@
+framework module Pods_MorningBrew {
+  umbrella header "Pods-MorningBrew-umbrella.h"
+
+  export *
+  module * { export * }
+}
